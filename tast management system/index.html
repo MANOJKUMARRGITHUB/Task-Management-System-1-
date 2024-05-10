@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Task Management Application</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Task Management Application</h1>
+    <div id="tasks-list"></div>
+    <button id="add-task-btn">Add Task</button>
+  </div>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Add New Task</h2>
+      <label for="title">Title:</label>
+      <input type="text" id="title" name="title">
+      <label for="description">Description:</label>
+      <textarea id="description" name="description"></textarea>
+      <label for="due-date">Due Date:</label>
+      <input type="date" id="due-date" name="due-date">
+      <button id="save-task-btn">Save</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

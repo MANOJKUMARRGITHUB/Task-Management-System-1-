@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.shutterstock.com/image-photo/document-management-system-dms-assessment-260nw-2250755809.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 36px; /* Increase the font size as desired */
+    color: #9eec38; /* Change the color to your preferred color */
+    margin-top: 20px; /* Add some top margin for spacing */
+
+  }
+  
+  #tasks-list {
+    margin-top: 20px;
+  }
+  
+  .task {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #616219;
+    background-color: #b8cfd7;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(190, 155, 155, 0.5);
+  }
+  
+  .modal-content {
+    background-color: #756363;
+    margin: 20% auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    max-width: 400px;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: rgb(227, 201, 167);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 600px) {
+    .modal-content {
+      width: 90%;
+    }
+  }
+  
